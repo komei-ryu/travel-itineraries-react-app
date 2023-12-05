@@ -1,0 +1,79 @@
+{
+  "trips": [
+    {
+      "id": "0",
+      "name": "Trip to New York"
+    },
+    {
+      "id": "1",
+      "name": "Trip to San Diego"
+    }
+  ],
+  "dates": [
+    {
+      "id": "0",
+      "date": "12/21/2023",
+      "tripId": "0"
+    },
+    {
+      "id": "1",
+      "date": "12/22/2023",
+      "tripId": "0"
+    },
+    {
+      "id": "2",
+      "date": "12/23/2023",
+      "tripId": "0"
+    },
+    {
+      "id": "3",
+      "date": "01/03/2024",
+      "tripId": "1"
+    },
+    {
+      "id": "4",
+      "date": "01/04/2024",
+      "tripId": "1"
+    }
+  ],
+  "locations": [
+    {
+      "id": "0",
+      "location": "Statue of Liberty",
+      "description": "We will arrive at the Statue of Liberty at 10 AM and leave at 12 PM.",
+      "favorited": true,
+      "dateId": "0",
+      "timeFavorited": "Sun Dec 03 2023 14:44:25 GMT-0800 (Pacific Standard Time)"
+    },
+    {
+      "id": "1",
+      "location": "Central Park",
+      "description": "We will walk around in the Central Park. No specific plan yet.",
+      "favorited": true,
+      "dateId": "0",
+      "timeFavorited": "Sun Dec 03 2023 14:44:22 GMT-0800 (Pacific Standard Time)"
+    },
+    {
+      "id": "2",
+      "location": "Empire State Building",
+      "description": "We will take the elevator to go to the top of Empire State Building.",
+      "favorited": false,
+      "dateId": "1"
+    },
+    {
+      "id": "3",
+      "location": "Wall Street",
+      "description": "",
+      "favorited": false,
+      "dateId": "2"
+    },
+    {
+      "id": "4",
+      "location": "San Diego Zoo",
+      "description": "",
+      "favorited": true,
+      "dateId": "3",
+      "timeFavorited": "Sun Dec 03 2023 14:44:36 GMT-0800 (Pacific Standard Time)"
+    }
+  ]
+}

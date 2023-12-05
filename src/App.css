@@ -1,3 +1,11 @@
+.navbar {
+  background-color: #c4dce5;
+}
+
+.nav-item .active {
+  font-size: 1.1em;
+}
+
 .App {
   text-align: center;
 }
